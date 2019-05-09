@@ -1,0 +1,111 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="../jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="../jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="../jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="estilos.css" />
+
+<!-- Refferencias de JqueryMobile -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+<!-- Referencias W3school para los div responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body class="w3-content" style="max-width:500px">
+</head> 
+<body> 
+<!-- div y id para crear un listview para el menu principal -->
+<div data-role="page" id="page" data-theme="a" data-dividertheme="a">
+	<div data-role="header">
+		<h1>Menu Principal</h1>
+
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview" data-inset="true" class="ui-icon-bars"
+        <li><a href="#page2">1.1 Tarea 3 Map </a></li>
+
+        <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#" data-icon="grid">Soporte</a></li>
+                <li><a href="#" data-icon="star" class="ui-btn-active">Contacto</a></li>
+                <li><a href="#" data-icon="star">Acerca de</a></li>
+		 </ul>
+        </div><!-- /navbar -->
+		</div><!-- /footer -->          
+		</ul>		
+	</div>
+    
+  
+   
+	<div data-role="footer" data-position="fixed">
+		<h4>www.huawei.com.mx</h4>
+	</div>
+</div>
+
+<!-- div sobre el id de la pagina 2 a mostrar -->
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Parrafos</h1>
+	</div>
+	<div data-role="content">	
+	<center>  
+<div data-role="navbar" data-direction="center">
+<center>  
+    <ul>
+        <li><a href="#page" class="ui-btn-active">Inicio</a></li>
+        <li><a href="#page11" data-position="fixed">Listas colapsable</a></li>
+        <li><a href="#page2">Acerca de Huawei</a></li>
+        <p>Map</p>
+
+
+    </ul>
+</div><!-- /navbar -->
+</center>
+<map name="infographic">
+    <area shape="poly" coords="130,147,200,107,254,219,130,228" href="https://developer.mozilla.org/docs/Web/HTML" target="_blank" alt="HTML" />
+<area shape="poly" coords="130,147,130,228,6,219,59,107"
+          href="https://developer.mozilla.org/docs/Web/CSS" target="_blank" alt="CSS" />
+<area shape="poly" coords="130,147,200,107,130,4,59,107" href="https://developer.mozilla.org/docs/Web/JavaScript" target="_blank" alt="JavaScript" />
+</map>
+<p align="justify">Clic en la sección 1 de la Figura 1.1 Secuencia de imagenes -- color rojo js.<br>
+Clic en la sección 2 de la Figura 1.1 Secuencia de imagenes -- color morado css.<br>
+Clic en la sección 3 de la Figura 1.1 Secuencia de imagenes -- color verde html.
+</p>
+<img usemap="#infographic" src="imagenes/piramideindex.png" alt="Estructura html" /><br>
+<center><p>Figura 1.1 secuencia de imagenes</center>
+
+
+
+<h3><i class="fa fa-nav"></i><a href="#"> 1. JS</h3></a>
+    <p align="justify">JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,3​ basado en prototipos, imperativo, débilmente tipado y dinámico.</p>	
+    
+<h3><i class="fa fa-nav"></i><a href="#"> 2. CSS</h3></a>
+    <p align="justify">CSS Hojas de estilo en cascada, es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. Es muy usado para establecer el diseño visual de los documentos web, e interfaces de usuario escritas en HTML o XHTML.
+    
+ <h3><i class="fa fa-nav"></i><a href="#"> 3. HTML</h3></a>
+    <p align="justify">“HTML es un lenguaje de programación que se utiliza para el desarrollo de páginas de Internet. Se trata de la siglas que corresponden a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto”..</p>	
+        	
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>www.huawei.com.mx</h4>
+	</div>
+</div>
+   
+<div>    
+</div>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Visita la pagina oficial de Huawei.com.mx</h4>
+	</div>
+</div>
+
+</body>
+</html>
